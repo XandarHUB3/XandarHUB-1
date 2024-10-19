@@ -122,7 +122,7 @@ if _G.On_Next_Generation then
     _G.Fruit = getgenv().Fruit['Select Fruit']
 end
 local Bijan = false
-local Bijan = loadstring(game:HttpGet("https://raw.githubusercontent.com/mondeef/s/main/README.lua"))()
+local Bijan = loadstring(game:HttpGet("https://raw.githubusercontent.com/XandarHUB3/XandarHUB-1/refs/heads/main/README.md"))()
 if type(Bijan) == 'table' then
 else
 	game:Shutdown()
