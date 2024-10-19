@@ -402,29 +402,29 @@ if _G.Switch_Hub_Series_R then
 			return bit_zes
 		end
 
-		if game:GetService("CoreGui"):FindFirstChild('Switch Hub') then
-			game:GetService("CoreGui"):FindFirstChild('Switch Hub'):Destroy()
+		if game:GetService("CoreGui"):FindFirstChild('XanderHUB') then
+			game:GetService("CoreGui"):FindFirstChild('XandarHUB'):Destroy()
 		end
-		-- Switch Hub
-		local Switch_Hub = Instance.new("ScreenGui")
-		Switch_Hub.Name = "Switch Hub"
-		Switch_Hub.Parent = game:GetService("CoreGui")
-		Switch_Hub.Enabled = false
+		-- XandarHUB 
+		local XandarHUB = Instance.new("ScreenGui")
+		XandarHUB.Name = "XandarHUB"
+		XandarHUB.Parent = game:GetService("CoreGui")
+		XandarHUB.Enabled = false
 		
 		
 		game:GetService("Players").LocalPlayer.PlayerGui.Main.BottomHUDList.SafeZone.Visible = false
 		game:GetService("Players").LocalPlayer.PlayerGui.Main.Code.Visible = false
-		-- Switch Hub 7M
+		-- XandarHUB 7M
 		local F_Level = Instance.new("Frame")
 		F_Level.Name = "Level"
-		F_Level.Parent = game:GetService("CoreGui")["Switch Hub"]
+		F_Level.Parent = game:GetService("CoreGui")["XandarHUB"]
 		F_Level.Size = UDim2.new(1, 0, 1, 0)
 		F_Level.Position = UDim2.new(0, 0, 0, 0)
 		F_Level.AnchorPoint = Vector2.new(0.5, 0.5)
 		F_Level.Transparency = 1
-		game:GetService("Players").LocalPlayer.PlayerGui.Main.Fragments:Clone().Parent = game:GetService("CoreGui")["Switch Hub"].Level
+		game:GetService("Players").LocalPlayer.PlayerGui.Main.Fragments:Clone().Parent = game:GetService("CoreGui")["XandarHUB"].Level
 		game:GetService("CoreGui")["Switch Hub"].Level.Fragments.TextColor3 = Color3.fromRGB(0, 255, 186) 
-		game:GetService("CoreGui")["Switch Hub"].Level.Fragments.Text = "Switch Hub"
+		game:GetService("CoreGui")["Switch Hub"].Level.Fragments.Text = "XandarHUB"
 		game:GetService("CoreGui")["Switch Hub"].Level.Fragments.Size = UDim2.new(1, 0, 0, 40)
 		game:GetService("CoreGui")["Switch Hub"].Level.Fragments.TextXAlignment = 'Center'
 		game:GetService("CoreGui")["Switch Hub"].Level.Position = UDim2.new(0.5, 0, -0.2, 0)
@@ -433,7 +433,7 @@ if _G.Switch_Hub_Series_R then
 		-- Time
 		local F_Text2 = Instance.new("Frame")
 		F_Text2.Name = "Text2"
-		F_Text2.Parent = game:GetService("CoreGui")["Switch Hub"]
+		F_Text2.Parent = game:GetService("CoreGui")["XandarHUB"]
 		F_Text2.Size = UDim2.new(1, 0, 1, 0)
 		F_Text2.Position = UDim2.new(0, 0, 0, 0)
 		F_Text2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -449,12 +449,12 @@ if _G.Switch_Hub_Series_R then
 		-- Name
 		local F_Text = Instance.new("Frame")
 		F_Text.Name = "Text"
-		F_Text.Parent = game:GetService("CoreGui")["Switch Hub"]
+		F_Text.Parent = game:GetService("CoreGui")["XandarHUB"]
 		F_Text.Size = UDim2.new(1, 0, 1, 0)
 		F_Text.Position = UDim2.new(0, 0, 0, 0)
 		F_Text.AnchorPoint = Vector2.new(0.5, 0.5)
 		F_Text.Transparency = 1
-		game:GetService("Players").LocalPlayer.PlayerGui.Main.Fragments:Clone().Parent = game:GetService("CoreGui")["Switch Hub"].Text
+		game:GetService("Players").LocalPlayer.PlayerGui.Main.Fragments:Clone().Parent = game:GetService("CoreGui")["XandarHUB"].Text
 		game:GetService("CoreGui")["Switch Hub"].Text.Fragments.TextColor3 = Color3.fromRGB(245, 245, 245)
 		game:GetService("CoreGui")["Switch Hub"].Text.Fragments.Text = '( '..game.Players.LocalPlayer.Name..' )'
 		game:GetService("CoreGui")["Switch Hub"].Text.Fragments.Size = UDim2.new(1, 0, 0, 25)
@@ -464,7 +464,7 @@ if _G.Switch_Hub_Series_R then
 		-- Status
 		local F_Text3 = Instance.new("Frame")
 		F_Text3.Name = "Text3"
-		F_Text3.Parent = game:GetService("CoreGui")["Switch Hub"]
+		F_Text3.Parent = game:GetService("CoreGui")["XandarHUB"]
 		F_Text3.Size = UDim2.new(1, 0, 1, 0)
 		F_Text3.Position = UDim2.new(0, 0, 0, 0)
 		F_Text3.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -479,7 +479,7 @@ if _G.Switch_Hub_Series_R then
 		-- Item Sanguine Art
 		local F_Text5 = Instance.new("Frame")
 		F_Text5.Name = "Text5"
-		F_Text5.Parent = game:GetService("CoreGui")["Switch Hub"]
+		F_Text5.Parent = game:GetService("CoreGui")["XandarHUB"]
 		F_Text5.Size = UDim2.new(1, 0, 1, 0)
 		F_Text5.Position = UDim2.new(0, 0, 0, 0)
 		F_Text5.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -494,28 +494,28 @@ if _G.Switch_Hub_Series_R then
 		-- Full Moon
 		local F_Text6 = Instance.new("Frame")
 		F_Text6.Name = "Text6"
-		F_Text6.Parent = game:GetService("CoreGui")["Switch Hub"]
+		F_Text6.Parent = game:GetService("CoreGui")["XandarHUB"]
 		F_Text6.Size = UDim2.new(1, 0, 1, 0)
 		F_Text6.Position = UDim2.new(0, 0, 0, 0)
 		F_Text6.AnchorPoint = Vector2.new(0.5, 0.5)
 		F_Text6.Transparency = 1
 		game:GetService("Players").LocalPlayer.PlayerGui.Main.Fragments:Clone().Parent = game:GetService("CoreGui")["Switch Hub"].Text6
-		game:GetService("CoreGui")["Switch Hub"].Text6.Fragments.TextColor3 = Color3.fromRGB(255,140,0)
-		game:GetService("CoreGui")["Switch Hub"].Text6.Fragments.Text = '🌕 75% ('..tostring(game:GetService("Lighting").TimeOfDay)..')'
-		game:GetService("CoreGui")["Switch Hub"].Text6.Fragments.Size = UDim2.new(1, 0, 0, 25)
-		game:GetService("CoreGui")["Switch Hub"].Text6.Fragments.TextXAlignment = 'Center'
-		game:GetService("CoreGui")["Switch Hub"].Text6.Position = UDim2.new(0.5, 0, -0.03, 0)
-		game:GetService("CoreGui")["Switch Hub"].Text6.Fragments.TextStrokeTransparency = 1
+		game:GetService("CoreGui")["XandarHUB"].Text6.Fragments.TextColor3 = Color3.fromRGB(255,140,0)
+		game:GetService("CoreGui")["XandarHUB"].Text6.Fragments.Text = '🌕 75% ('..tostring(game:GetService("Lighting").TimeOfDay)..')'
+		game:GetService("CoreGui")["XandarHUB"].Text6.Fragments.Size = UDim2.new(1, 0, 0, 25)
+		game:GetService("CoreGui")["XandarHUB"].Text6.Fragments.TextXAlignment = 'Center'
+		game:GetService("CoreGui")["XandarHUB"].Text6.Position = UDim2.new(0.5, 0, -0.03, 0)
+		game:GetService("CoreGui")["XandarHUB"].Text6.Fragments.TextStrokeTransparency = 1
 		spawn(function()
 			while wait(1) do
 				pcall(function()
 					if Three_World then
 						if game:GetService("Lighting").Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149431" then
-							game:GetService("CoreGui")["Switch Hub"].Text6.Fragments.Text = '🌕 100% ('..tostring(game:GetService("Lighting").TimeOfDay)..')'
+							game:GetService("CoreGui")["XandarHUB"].Text6.Fragments.Text = '🌕 100% ('..tostring(game:GetService("Lighting").TimeOfDay)..')'
 						elseif game:GetService("Lighting").Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149052" then
-							game:GetService("CoreGui")["Switch Hub"].Text6.Fragments.Text = '🌕 75% ('..tostring(game:GetService("Lighting").TimeOfDay)..')'
+							game:GetService("CoreGui")["XandarHUB"].Text6.Fragments.Text = '🌕 75% ('..tostring(game:GetService("Lighting").TimeOfDay)..')'
 						elseif game:GetService("Lighting").Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709143733" then
-							game:GetService("CoreGui")["Switch Hub"].Text6.Fragments.Text = '🌕 50% ('..tostring(game:GetService("Lighting").TimeOfDay)..')'
+							game:GetService("CoreGui")["XandarHUB"].Text6.Fragments.Text = '🌕 50% ('..tostring(game:GetService("Lighting").TimeOfDay)..')'
 						elseif game:GetService("Lighting").Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709150401" then
-							game:GetService("CoreGui")["Switch Hub"].Text6.Fragments.Text = '🌕 25% ('..tostring(game:GetService("Lighting").TimeOfDay)..')'
-						elseif game:GetService("Lighting").Sky.MoonTextur# XandarHUB-1
+							game:GetService("CoreGui")["XandarHUB"].Text6.Fragments.Text = '🌕 25% ('..tostring(game:GetService("Lighting").TimeOfDay)..')'
+						elseif game:GetService("Lighting").Sky.MoonTextur
